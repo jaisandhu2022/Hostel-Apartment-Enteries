@@ -10,8 +10,6 @@ function save(){
   let currentnumber=count+"-";
   saveel.textContent+=currentnumber;
   countel.textContent=0;
-}
-function show(){
-  getElementById("count-el").reset(count);
+  count=0;
 }
 
